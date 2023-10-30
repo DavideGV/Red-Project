@@ -1,0 +1,220 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#start_logo{
+    background-image: url(./media/logo.png);
+    background-size: cover;
+    height: 75px;
+    width: 10%;
+}
+
+#nav_link{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+    font-size: 90px;
+    letter-spacing: 50px;
+}
+
+h2{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+}
+
+#justifyend{
+    text-align: end;
+}
+
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+#p1,#p2{
+    text-align: end;
+}
+
+#intestazione::before{
+    content: "''";
+    color: darkred;
+    font-size: 50px;
+
+}
+
+#intestazione::after{
+    content:"''";
+    color: darkred;
+    font-size: 50px;
+}
+
+
+#sfondo{
+    background-image: url(./media/mountains2.png) , linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(255, 255, 255) 100%) , url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, cover, cover;
+    background-position:bottom, center, center ;
+    height: 100vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+button{
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 550;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#button{
+    background-image: url(./media/trees2.png);
+    background-color: rgb(231, 231, 231);
+    height: 500px;
+}
+
+header,main{
+    background-color:  rgb(231, 231, 231);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#buttonSnow,#buttonStop,#buttonMap,#buttonDot{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: darkred;
+}
+
+.testo {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#tratto1,#tratto2,#tratto3,#tratto4{
+    color: darkred;
+    background-color: darkred;
+    border-radius: 20px;
+    height: 3px;
+}
+
+h3{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+    font-weight: 600;  
+}
+
+#sfondo3{
+    background-image: url(./media/single.png);
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+#immagini4{
+    display: flex;
+    text-align: center;
+}
+
+#annuncio1,#annuncio2,#annuncio3,#annuncio4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: darkred;
+}
+
+#contFoto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#foto1,#foto2,#foto3,#foto4{
+    height: 150px;
+    width: 150px;
+    background-image: url(./media/fog.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+h5{
+    font-family: 'Rajdhani', sans-serif;
+    color: darkred;
+    font-weight: bold;
+}
+
+#altroSfondo1{
+    background-image: url(./media/landscape-975091_1920.jpg);
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+#altroSfondo2{
+    background-image: url(./media/mountain-547363_1920.jpg);
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+#row-reverse{
+    flex-direction: row-reverse;
+}
+
+#section{
+    background-color:  rgb(231, 231, 231);
+    background-image: url(./media/other.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 500px;
+}
+
+.p4{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h4{
+    font-family: 'Rajdhani';
+    font-weight: 600;
+}
+
+#footer{
+    background-color: darkred;
+    color: white;
+    height:350px;
+    display: flex;
+    align-items: end;
+}
+
+#h2{
+    color: white;
+}
+
+#contorno{
+    background-color: white;
+}
